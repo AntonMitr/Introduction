@@ -82,7 +82,7 @@ public class FirstSteps {
         if(array.length == 0) return isSorted;
 
         for(int i = 1; i < array.length; i++){
-            if (array[i] > array[i - 1]) {
+            if (array[i] >= array[i - 1]) {
                 isSorted = false;
                 break;
             }
